@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff; /* Navbar background color */
+  color: #fff;
+  overflow: hidden; /* Ensure no overflow issues */
+}
+
+.header .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: Arial, sans-serif; /* Ensure the font family matches the rest */
+  color: #fff; /* Ensure logo text color matches the rest of the navbar */
+  text-decoration: none; /* Remove underline */
+  white-space: nowrap; /* Prevent wrapping if necessary */
+}
+
+.header nav {
+  flex-grow: 1; /* Ensure the nav takes up the remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align nav items to the right */
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.header ul li {
+  margin: 0;
+}
+
+.header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+  color: red; /* Change color on hover if needed */
+}
