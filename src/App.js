@@ -12,7 +12,7 @@ import usePageTracking from './usePageTracking';
 function App() {
   return (
     <Router>
-      <usePageTracking /> {/* Move this inside Router */}
+      <usePageTracking /> 
       <div className="App">
         <Header />
         <main>
