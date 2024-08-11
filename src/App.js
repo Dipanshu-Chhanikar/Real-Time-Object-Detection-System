@@ -10,10 +10,9 @@ import './App.css';
 import usePageTracking from './usePageTracking';
 
 function App() {
-  usePageTracking();
-
   return (
     <Router>
+      <usePageTracking /> {/* Move this inside Router */}
       <div className="App">
         <Header />
         <main>
